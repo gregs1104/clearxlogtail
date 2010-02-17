@@ -1,0 +1,4 @@
+clearxlogtail is a stand-alone executable filter to zero the unused
+portion (if any) at the tail of a WAL (xlog) file. Its primary usage
+is to allow better compression of WAL files before transfer and/or
+storage. Useful in an archive_command statement or script.
